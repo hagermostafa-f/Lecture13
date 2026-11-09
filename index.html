@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdminPanel</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="side-bar">
+    <div class="sidebar-top">
+      <div class="brand">
+        <span class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 2 7l10 5 10-5-10-5z"/>
+            <path d="m2 17 10 5 10-5"/>
+            <path d="m2 12 10 5 10-5"/>
+          </svg>
+        </span>
+        <h2 class="brand-name">AdminPanel</h2>
+      </div>
+ 
+      <nav class="nav">
+        <a href="./index2.html" class="nav-link active">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+          <span>Users</span>
+        </a>
+      </nav>
+    </div>
+ 
+    <div class="sidebar-bottom">
+      <button class="logout-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+          <path d="m16 17 5-5-5-5"/>
+          <path d="M21 12H9"/>
+        </svg>
+        <span>Logout</span>
+      </button>
+    </div>
+  </div>
+
+
+  <header class="top-navbar">
+        <div class="Container-left">
+            <p class="dashboard">Dashboard</p>
+            <img src="./Images/Vector(3).svg" alt="Vector">
+            <span class="users">Users</span>
+        </div>
+        <div class="Container-right">
+            <img src="./Images/Background.svg" alt="background">
+            <span class="admin"><span class="alex">Alex Morgan</span><br><span class="s-admin">Super Admin</span>
+            </span>
+
+        </div>
+    </header>
+    <div class="users-mgmt">
+        <div class="usersContainer">
+            <h1>Users Management</h1>
+            <p>View, manage and update user information and employee salaries</p>
+        </div>
+        <button><img src="./Images/SVG.svg" alt="plussign"><span class="text-btn">Add User</span> </button>
+    </div>
+
+    <div class="Users-TableCard">
+        <div class="top-userstable">
+            <SPan>All Users</SPan>
+            <img src="./Images/Background(1).svg" alt="background">
+        </div>
+        <div class="header-row">
+            <span class="name">NAME</span>
+            <span class="role">ROLE</span>
+            <span class="email">EMAIL</span>
+            <span class="salary">SALARY</span>
+            <span class="actions">ACTIONS</span>
+        </div>
+        <div class="Body">
+            <div class="Row-User1">
+                <div class="username">
+                    <img src="./Images/Background(2).svg" alt="background">
+                    <span>Esraa Sulayman</span>
+                </div>
+                <div class="userrole1"><img src="./Images/Background(3).svg" alt="background"></div>
+                <div class="useremail"><span>esraa.sulayman@example.com</span></div>
+                <div class="usersalary"><span>$120,000 / yr</span></div>
+                <div class="useractions">
+                    <button class="update-btn"><img src="./Images/SVG(1).svg" alt="update"> <span
+                            class="updatespan">Update</span></button>
+                    <button class="delete-btn"><img src="./Images/SVG(2).svg" alt="delete"> <span
+                            class="deletespan">Delete</span></button>
+                </div>
+            </div>
+            <div class="Row-User2">
+                <div class="username">
+                    <img src="./Images/Background(4).svg" alt="background">
+                    <span>Manar Camil</span>
+                </div>
+                <div class="userrole2"><img src="./Images/Background(5).svg" alt="background"></div>
+                <div class="useremail"><span>manar.camil@example.com</span></div>
+                <div class="usersalary"><span>$95,000 / yr</span></div>
+                <div class="useractions">
+                    <button class="update-btn"><img src="./Images/SVG(1).svg" alt="update"> <span
+                            class="updatespan">Update</span></button>
+                    <button class="delete-btn"><img src="./Images/SVG(2).svg" alt="delete"> <span
+                            class="deletespan">Delete</span></button>
+                </div>
+            </div>
+            <div class="Row-User3">
+                <div class="username">
+                    <img src="./Images/Background(6).svg" alt="background">
+                    <span>Sarah Jad</span>
+                </div>
+                <div class="userrole3"><img src="./Images/Background(7).svg" alt="background"></div>
+                <div class="useremail">sarah.jad@example.com</div>
+                <div class="usersalary">$85,000 / yr</div>
+                <div class="useractions">
+                    <button class="update-btn"><img src="./Images/SVG(1).svg" alt="update"> <span
+                            class="updatespan">Update</span></button>
+                    <button class="delete-btn"><img src="./Images/SVG(2).svg" alt="delete"> <span
+                            class="deletespan">Delete</span></button>
+                </div>
+            </div>
+            <div class="Row-User4">
+                <div class="username">
+                    <img src="./Images/Background(8).svg" alt="background">
+                    <span>Dalia Wael</span>
+                </div>
+                <div class="userrole4"><img src="./Images/Background(9).svg" alt="background"></div>
+                <div class="useremail">dalia.wael@example.com</div>
+                <div class="usersalary">$105,000 / yr</div>
+                <div class="useractions">
+                    <button class="update-btn"><img src="./Images/SVG(1).svg" alt="update"> <span
+                            class="updatespan">Update</span></button>
+                    <button class="delete-btn"><img src="./Images/SVG(2).svg" alt="delete"> <span
+                            class="deletespan">Delete</span></button>
+                </div>
+            </div>
+            <div class="Row-User5">
+                <div class="username">
+                    <img src="./Images/Background(10).svg" alt="background">
+                    <span>Omnia Rushdy</span>
+                </div>
+                <div class="userrole5"><img src="./Images/Background(11).svg" alt="background"></div>
+                <div class="useremail">omnia.rushdy@example.com</div>
+                <div class="usersalary">$88,000 / yr</div>
+                <div class="useractions">
+                    <button class="update-btn"><img src="./Images/SVG(1).svg" alt="update"> <span
+                            class="updatespan">Update</span></button>
+                    <button class="delete-btn"><img src="./Images/SVG(2).svg" alt="delete"> <span
+                            class="deletespan">Delete</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="side-bar">
+    <div class="sidebar-top">
+      <div class="brand">
+        <span class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 2 7l10 5 10-5-10-5z"/>
+            <path d="m2 17 10 5 10-5"/>
+            <path d="m2 12 10 5 10-5"/>
+          </svg>
+        </span>
+        <h2 class="brand-name">AdminPanel</h2>
+      </div>
+ 
+      <nav class="nav">
+        <a href="./index.html" class="nav-link active">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+          <span>Users</span>
+        </a>
+      </nav>
+    </div>
+ 
+    <div class="sidebar-bottom">
+      <button class="logout-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+          <path d="m16 17 5-5-5-5"/>
+          <path d="M21 12H9"/>
+        </svg>
+        <span>Logout</span>
+      </button>
+    </div>
+  </div>
+ 
+  <header class="top-navbar">
+    <div class="Container-left">
+      <p class="dashboard">Dashboard</p>
+      <img src="./Images/Vector(3).svg" alt="Vector">
+      <p class="dashboard">Users</p>
+      <img src="./Images/Vector(3).svg" alt="Vector">
+      <span class="users">Add New User</span>
+    </div>
+    <div class="Container-right">
+      <img src="./Images/Background.svg" alt="background">
+      <span class="admin"><span class="alex">Alex Morgan</span><br><span class="s-admin">Super Admin</span></span>
+    </div>
+  </header>
+ 
+  <div class="page-header">
+    <div>
+      <h1>Add New User</h1>
+      <p>Fill in the form below to create a new user account in the system</p>
+    </div>
+    <a href="./index.html" class="back-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m12 19-7-7 7-7"/>
+        <path d="M19 12H5"/>
+      </svg>
+      <span>Back to Users</span>
+    </a>
+  </div>
+ 
+  <form class="user-card">
+    <div class="card-top">
+      <h2>User Details</h2>
+      <p>Please provide the personal and employment information for the new user.</p>
+    </div>
+ 
+    <div class="form-body">
+      <div class="field">
+        <label>Full Name <span class="star">*</span></label>
+        <div class="input-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <input type="text" placeholder="e.g. John Doe">
+        </div>
+        <p class="hint">Enter the first and last name of the employee</p>
+      </div>
+ 
+      <div class="two-cols">
+        <div class="field">
+          <label>Role / Position <span class="star">*</span></label>
+          <div class="input-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+            <select>
+              <option value="">Select a role...</option>
+              <option>Administrator</option>
+              <option>Senior Developer</option>
+              <option>UI/UX Designer</option>
+              <option>Project Manager</option>
+              <option>Data Analyst</option>
+            </select>
+          </div>
+        </div>
+ 
+        <div class="field">
+          <label>Salary (Annual) <span class="star">*</span></label>
+          <div class="input-box">
+            <span class="dollar">$</span>
+            <input type="number" placeholder="e.g. $85,000 / yr">
+          </div>
+        </div>
+      </div>
+ 
+      <div class="field">
+        <label>Email Address <span class="star">*</span></label>
+        <div class="input-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-10 6L2 7"/>
+          </svg>
+          <input type="email" placeholder="e.g. john.doe@company.com">
+        </div>
+        <p class="hint">Company email address used for system login notifications</p>
+      </div>
+    </div>
+ 
+    <div class="card-bottom">
+      <a href="./index.html" class="cancel-btn">Cancel</a>
+      <button type="submit" class="save-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 6 9 17l-5-5"/>
+        </svg>
+        <span>Save User</span>
+      </button>
+    </div>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>

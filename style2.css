@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ===== Page Header ===== */
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 36px 24px;
+}
+ 
+.page-header h1 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #0F172A;
+    padding-bottom: 4px;
+}
+ 
+.page-header p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #64748B;
+}
+ 
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    color: #0F172A;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+ 
+/* ===== Card ===== */
+.user-card {
+    width: 680px;
+    margin: 0 auto 36px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+ 
+.card-top {
+    padding: 24px;
+    border-bottom: 0.8px solid #E2E8F0;
+}
+ 
+.card-top h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0F172A;
+    padding-bottom: 4px;
+}
+ 
+.card-top p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #64748B;
+}
+ 
+/* ===== Form ===== */
+.form-body {
+    padding: 24px;
+}
+ 
+.field {
+    padding-bottom: 20px;
+}
+ 
+.field label {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #0F172A;
+}
+ 
+.star {
+    color: #EF4444;
+}
+ 
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+ 
+.input-box input,
+.input-box select {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #0F172A;
+}
+ 
+.dollar {
+    font-size: 14px;
+    color: #94A3B8;
+}
+ 
+.hint {
+    padding-top: 6px;
+    font-size: 12px;
+    color: #94A3B8;
+}
+ 
+.two-cols {
+    display: flex;
+    gap: 16px;
+}
+ 
+.two-cols .field {
+    flex: 1;
+}
+ 
+/* ===== Card Buttons ===== */
+.card-bottom {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px 24px;
+    background-color: #F8FAFC;
+    border-top: 0.8px solid #E2E8F0;
+}
+ 
+.cancel-btn {
+    padding: 10px 18px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    color: #0F172A;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+ 
+.save-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+ 
